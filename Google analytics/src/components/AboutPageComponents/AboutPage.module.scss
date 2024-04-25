@@ -1,0 +1,12 @@
+.aboutWrapper {
+	height: 80vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	.about {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}

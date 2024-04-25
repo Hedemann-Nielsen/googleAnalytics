@@ -1,5 +1,5 @@
-import React from "react";
+import { AboutPageComponent } from "../components/AboutPageComponents/AboutPageComponent.jsx";
 
 export const AboutPage = () => {
-	return <div>AboutPage</div>;
+	return <AboutPageComponent />;
 };
