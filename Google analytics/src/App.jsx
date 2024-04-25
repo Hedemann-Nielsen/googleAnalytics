@@ -1,6 +1,7 @@
 import { RouterProvider } from "react-router-dom";
 import { routes } from "./components/Routes/Routes.jsx";
 import "./App.scss";
+import "./index.css";
 import ReactGA from "react-ga4";
 
 function App() {

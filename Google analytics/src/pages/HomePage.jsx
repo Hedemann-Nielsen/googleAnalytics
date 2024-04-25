@@ -1,3 +1,5 @@
+import { Caption } from "../components/HomePageComponents/Caption";
+
 export const HomePage = () => {
-	return <div>HomePage</div>;
+	return <Caption />;
 };

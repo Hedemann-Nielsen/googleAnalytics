@@ -1,3 +1,5 @@
+import { FallbackComponent } from "../components/FallbackComponent/FallbackComponent";
+
 export const FallbackPage = () => {
-	return <div>FallbackPage</div>;
+	return <FallbackComponent />;
 };

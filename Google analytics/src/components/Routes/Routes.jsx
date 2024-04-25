@@ -11,19 +11,23 @@ export const routes = createBrowserRouter([
 		element: <Layout />,
 		children: [
 			{
-				path: "home",
+				index: true,
 				element: <HomePage />,
 			},
 			{
-				path: "about",
+				path: "/home",
+				element: <HomePage />,
+			},
+			{
+				path: "/about",
 				element: <AboutPage />,
 			},
 			{
-				path: "gallery",
+				path: "/gallery",
 				element: <GalleryPage />,
 			},
 			{
-				path: "*",
+				path: "/*",
 				element: <FallbackPage />,
 			},
 		],
